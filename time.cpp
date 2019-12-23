@@ -54,7 +54,8 @@ int main()
 
     Time T; 
     printf(_("Welcome to the time calculator")); //test de funcionamineto con printf
-    cout << endl << "---------------------------" <<endl;
+    //cout << endl << "---------------------------" <<endl;
+    printf(_("\n---------------------------\n"));
     T.getTime();
     T.convertIntoSeconds();
     T.displayTime();
