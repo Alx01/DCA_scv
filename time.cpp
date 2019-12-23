@@ -55,7 +55,7 @@ int main()
     Time T; 
     printf(_("Welcome to the time calculator")); //test de funcionamineto con printf
     //cout << endl << "---------------------------" <<endl;
-    printf(_("\n---------------------------\n"));
+    printf(_("\n---------------------------\n")ESTO ES UN ERROR);
     T.getTime();
     T.convertIntoSeconds();
     T.displayTime();
